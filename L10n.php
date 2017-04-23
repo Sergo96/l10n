@@ -11,9 +11,9 @@ class L10n
 {
 
     /**
-     * @const array
+     * @param array
      */
-    const ALLOWED_REPOSITORIES = ['mysql', 'files'];
+    protected $allowed_repositories = ['mysql', 'files'];
 
     /**
      * @var array
@@ -117,6 +117,6 @@ class L10n
      * @return bool
      */
     protected function isCorrectRepository($repository) {
-        return in_array($repository, self::ALLOWED_REPOSITORIES);
+        return in_array($repository, $this->allowed_repositories);
     }
 }
