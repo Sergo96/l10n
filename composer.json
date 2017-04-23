@@ -1,0 +1,11 @@
+{
+    "name": "sergo/l10n",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Sergiy Petrov",
+            "email": "sergolucky96@gmail.com"
+        }
+    ],
+    "require": {}
+}
